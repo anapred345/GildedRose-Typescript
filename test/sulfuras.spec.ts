@@ -11,7 +11,7 @@ describe('Sulfuras', function () {
         expect(updated_sulfuras[0].sellIn).to.equal(8);
     });
 
-    it('when more dayy pass Sulfuras quality and SellIn stay the same', function() {
+    it('when more days pass Sulfuras quality and SellIn stay the same', function() {
         const updated_sulfuras = sulfuras.updateQuality();
         sulfuras.updateQuality();
         sulfuras.updateQuality();
